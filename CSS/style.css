@@ -1,0 +1,99 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para el header */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  /* Estilos para la sección de productos */
+  .productos {
+    margin-bottom: 20px;
+  }
+  
+  .producto {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .producto img {
+    width: 100px;
+    margin-right: 10px;
+  }
+  
+  .producto h3 {
+    margin: 0;
+  }
+  
+  .producto p {
+    font-size: 16px;
+  }
+  
+  .boton-agregar {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-left: auto;
+    cursor: pointer;
+  }
+  
+  /* Estilos para la sección del carrito */
+  .carrito {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .lista-carrito {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .lista-carrito li {
+    border-bottom: 1px solid #ccc;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .lista-carrito img {
+    width: 50px;
+    margin-right: 10px;
+  }
+  
+  .total {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .boton-vaciar {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
