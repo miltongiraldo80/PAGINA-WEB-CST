@@ -47,26 +47,26 @@
     </div>
     
 
-                 <form method="post">
+    <form action="registro.php" method="POST" >
 
                     <h2>hola</h2>
                     <p>registrate</p>
                     
                 
                     <div class="input-wrapper">
-                      <input type="text" name="name" placeholder="usuario" required>
-<!--                       <img class="input-icon" src="images/name.svg" alt="">  -->   
-                 </div>
+                      <input type="text" name="name" placeholder="nombre" required>
+                        
+                   </div>
                 
                     <div class="input-wrapper">
                       <input type="email" name="email" placeholder="correo" required>
-                     <!--  <img class="input-icon" src="images/email.svg" alt="" > -->             
+                                 
                     </div>    
                 
                 
                     <div class="input-wrapper">
                       <input type="password" name="password" placeholder="contraseña" required>
-                       <!-- <img class="input-icon" src="images/password.svg" alt=""> -->                 
+                        <img class="input-icon" src="images/password.svg" alt="">                 
                     </div>
                 
                  
@@ -86,6 +86,8 @@
 
     <section class="login" id="inicio sesion">
         <h1>Inicio de sesión</h1>
+
+        
         <form action="/login"  class="form"  method="post">
 
             <div class="input-wrapper">
